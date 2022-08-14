@@ -78,9 +78,7 @@ const Login = () =>  {
       <br />
       <br />
       <Button onClick={() => redirect("register")} block>Registruotis</Button> 
-      <a  className="login-form-forgot" onClick={() => redirect("forgetPassword")} >
-       <p style={{ fontSize: "18px", marginTop: "25px", color: 'darkblue'}}>  Pamiršau slaptažodį  </p>
-        </a>
+       <p className="login-form-forgot" onClick={() => redirect("forgetPassword")} style={{ fontSize: "18px", marginTop: "25px", color: 'darkblue', cursor: "pointer"}}>  Pamiršau slaptažodį  </p>
       </Form>
     </div>
   )
